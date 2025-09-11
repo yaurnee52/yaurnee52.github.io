@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вход — Bauer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="auth-body">
+  <main class="auth-wrapper">
+    <form class="auth-card" action="https://httpbin.org/post" method="post">
+      <h1 class="auth-title">Вход</h1>
+
+      <label class="auth-row">
+        <span>Логин</span>
+        <input type="text" name="login" required>
+      </label>
+
+      <label class="auth-row">
+        <span>Пароль</span>
+        <input type="password" name="password" required>
+      </label>
+
+      <label class="auth-remember">
+        <input type="checkbox" name="remember"> Запомнить меня
+      </label>
+
+      <button class="btn auth-btn" type="submit">Войти</button>
+    </form>
+  </main>
+</body>
+</html>
