@@ -245,9 +245,4 @@ th {
 .auth-btn { 
   width: 100%; 
 }
-.auth-hint { 
-  margin: 0; 
-  text-align: center; 
-  color: #666; 
-  font-size: 12px; 
-}
+
