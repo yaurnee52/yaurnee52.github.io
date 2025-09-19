@@ -156,6 +156,11 @@ th {
   display: grid; 
   gap: 6px; 
 }
+
+.form-know {
+  margin-top: 0;
+}
+
 .form-row input,
 .form-row select,
 .form-row textarea { 
