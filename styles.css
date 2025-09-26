@@ -147,10 +147,14 @@ th {
 }
 
 .form { 
-  max-width: 640px; 
+  max-width: 1000px; 
   margin: 0 auto; 
   display: grid; 
   gap: 12px; 
+  border: 1px solid #ddd;
+  border-radius: 8px;       
+  padding: 16px;           
+  background: #fff; 
 }
 .form-row { 
   display: grid; 
